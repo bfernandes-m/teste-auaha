@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Layout Desafio Auaha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+
+    <link rel="stylesheet" href="js/Lib/Nivo-Slider/themes/default/default.css" />
+    <link rel="stylesheet" href="js/Lib/Nivo-Slider/nivo-slider.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="cabecalho">
+
+            <div class="Top">
+
+                <!----- Campo de busca -->
+                <div class="busca">
+                    <input type="search" class="txtBusca" placeholder="O que deseja encontrar?" />
+                    <i id="lupa" class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+                <div><img style="width: 100px; height: auto" src="Image/logo.png"></div>
+
+                <div class="minhaConta">
+
+                    <i id="pop" class="fa-solid fa-circle-user contato-icon"></i>
+                    <div class="dropdown">
+                        <div class="drop-perfil">Minha conta</div>
+                        <div class="conteudo-drop">
+                            <a href="#">Login</a>
+                            <a href="#">Cadastre-se</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contato">
+                    <i id="phn" class="fa-solid fa-phone contato-icon"></i>
+                    <div>(99) 99999-9999</div>
+                </div>
+
+
+                <div class="pedido">
+                    <i id="trk" class="fa-solid fa-truck-arrow-right contato-icon"></i>
+                    <div>Rastreie o seu pedido</div>
+                </div>
+
+                <div class;="carrinho">
+                    <img style="width: auto;" src="Image/minicart.png">
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="Menutodo">
+        <ul class="MenuNav">
+
+            <li><a href="#">Anéis</a></li>
+            <li><a href="#">Brincos</a></li>
+            <li><a href="#">Colares</a></li>
+            <li><a href="#">Pingentes</a></li>
+            <li><a href="#">Pulseiras</a></li>
+            <li><a href="#">Kits</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Banner Carrossel -->
+
+    <div id="slider" class="banner">
+        <div><img src="Image/fullbanner.png"></div>
+        <img src="https://fakeimg.pl/1920x640/">
+    </div>
+
+
+    <!-- Bannner Reguaa -->
+    <nav class="BannerReguaT">
+        <ul class="bannerRegua">
+
+            <div class="frete">
+
+                <i class="fa-solid fa-truck-ramp-box contato-icon"></i>
+                <li class="Frete">Frete grátis nas compras acima de R$ 299,00</li>
+
+            </div>
+
+            <div class="parcelamento">
+                <i class="fa-solid fa-credit-card  contato-icon"></i>
+                <li class="parcela"> 6 vezes sem juros no cartão de crédito</li>
+            </div>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- Banner Grids-->
+
+    <div class="BannerGrid">
+        <div class="row">
+            <div style="display: flex; flex-direction: column;">
+                <div style="overflow: hidden;"> <img class="ajustTam posiBrinco HoverScale" src="Image/Img1.png">
+                </div>
+
+                <div style="overflow: hidden;"> <img class="ajustTam posiAnel HoverScale" src="Image/Img2.png"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div style="display: flex; flex-direction: column;">
+                <div style="overflow: hidden;"> <img class="ajustTam posiPing HoverScale" src="Image/Img4.png"> </div>
+
+                <div style="overflow: hidden;"> <img class="ajustTam posiPul HoverScale" src="Image/Img5.png"></div>
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div style="background: #F8F8F8; margin-left: 20px;">
+                <img class="posiColar HoverScale" src="Image/Img3.png" width="347" height="724"
+                    style="background-color: #F8F8F8">
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- Mini Banners-->
+
+    <div class="promocoes">
+
+        <h2 style="font-family: 'Lato,Medium', sans-serif;" class="Titulo-Central">PROMOÇÕES</h2>
+
+    </div>
+
+    <div class="MiniBanner">
+        <div class="row">
+            <img src="Image/Mini2.png" width="645" height="460">
+            <img src="Image/Mini1.png" width="645" height="460">
+        </div>
+    </div>
+
+
+
+    <!-- Grip de Comentários-->
+
+    <div style="margin-top: 75px;" class="comentarios">
+
+        <h2 style="font-family: 'Lato,Medium', sans-serif;" class="Titulo-Central">O QUE OS CLIENTES DIZEM</h2>
+
+        <div class="gridComent">
+
+            <div class="bloco">
+                <div class="titulo">Nome do Cliente</div>
+                <div class="coment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in
+                    purus vitae,
+                    semper
+                    porttitor ligula. Sed egestas odio ut pretium aliquet.</div>
+                <div class="data">12/10/2020</div>
+            </div>
+
+
+
+            <div class="bloco">
+                <div class="titulo">Nome do Cliente</div>
+                <div class="coment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in
+                    purus vitae,
+                    semper
+                    porttitor ligula. Sed egestas odio ut pretium aliquet.</div>
+                <div class="data">12/10/2020</div>
+
+            </div>
+
+
+            <div class="bloco">
+                <div class="titulo">Nome do Cliente</div>
+                <div class="coment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi eros, interdum in
+                    purus vitae,
+                    semper
+                    porttitor ligula. Sed egestas odio ut pretium aliquet.</div>
+                <div class="data">12/10/2020</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Newsletter-->
+
+    <div style="font-family: 'Lato,Medium', sans-serif;" class="newsletter">
+
+        <h2 style="margin-top: 83px; font-family: 'Lato,Medium', sans-serif;" class="Titulo-Central">Receba ofertas e
+            novidades</h2>
+        <h4 style=" font-family: 'Lato,Medium', sans-serif; margin-bottom: 30px;" class="subNews">Cadastre-se e receba
+            nossas novidades e promoções</h4>
+
+        <div>
+            <form class="input">
+                <input class="txtnews" type="name" placeholder="Seu nome">
+                <input class="txtnews" type="email" placeholder="Seu e-mail">
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+
+
+    </div>
+
+    <!-- Rodapé da página-->
+
+    </section>
+
+    <footer>
+        <div class="PaginasLoja">
+
+            <div class="todo-footer">
+
+                <div class="footer-info">
+
+                    <div class="contact">
+                        <h4>Contato</h4>
+                        <div class="icon">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Das 9h às 17h</span>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>(11) 98751-2918</span>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <spam>vendas@surijoias.com.br</spam>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="footerPagLoja">
+
+                    <div class="institucional">
+                        <h4>Institucional</h4>
+                        <div class="icon">
+                            <span>Trocas e Devoluções</span>
+                        </div>
+                        <div class="icon">
+                            <span>Entregas e Prazos</span>
+                        </div>
+                        <div class="icon">
+                            <span>Blog</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerAjuda">
+                    <div class="help">
+                        <h4>Ajuda</h4>
+                        <div class="icon">
+                            <span>Contato</span>
+                        </div>
+                        <div class="icon">
+                            <span>Tire suas dúvidas</span>
+                        </div>
+                        <div class="icon">
+                            <span>Garantia e Cuidados</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerPagLoja">
+                    <div class="pay">
+                        <h4>Pagamento</h4>
+                        <div class="icon">
+                            <img src="Image/pagamento.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footerPagLoja">
+                    <div class="RedesSociais">
+                        <h4>Siga-nos</h4>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div style="margin-top: 18px;" class="footerFinal">
+            <span style="font-size: 12px;">
+                &copy; SURI JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem
+                aviso prévio -
+                CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX
+            </span>
+            <img style="margin-top: 8px; width: 100px; height: auto; margin-bottom: 15px;" src="Image/Logo-auahau.png"
+                alt="">
+        </div>
+    </footer>
+
+
+    <!-- Importação dos Javascripts -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/Lib/Nivo-Slider/jquery.nivo.slider.js"></script>
+    <script src="js/Js.js"></script>
+
+
+
+</body>
+
+</html>

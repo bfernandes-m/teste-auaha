@@ -1,0 +1,299 @@
+*{
+	font-family: 'Lato,Medium', sans-serif;
+	margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+
+	font-family: 'Lato,Medium', sans-serif;
+	color: #222222;
+	font-size: 16px;
+}
+
+
+.cabecalho{
+
+	border-bottom: solid 2px #F8F8F8;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.Top{
+
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1250px;
+	margin: auto;
+	font-size: 14px;
+}
+
+.busca{
+
+	display: flex;
+	align-items: center;
+	padding: 10px;
+
+	
+}
+
+.txtBusca{
+	background-color:#F8F8F8;
+	border:solid 2px #5f9ea000;
+	border-radius:50px 50px 50px 50px;
+	width:300px;
+	height:32px;
+	padding-left: 10%;
+}
+
+#lupa{
+
+	margin-left: -30px;
+	
+}
+
+.minhaConta{ display: flex; 
+	align-items: center;}
+
+.contato-icon{
+	margin-right: 5px;
+
+}
+
+
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+
+.conteudo-drop{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.conteudo-drop a{	
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.conteudo-drop a:hover{
+	background-color: white;
+}
+
+.minhaConta:hover .conteudo-drop{
+	display: block;
+
+}
+
+.contato{ display: flex; align-items: center; margin-right: 20px; }
+
+.pedido{display: flex; align-items: center;}
+
+.carrinho{display: flex; align-items: center;}
+
+.Menutodo{
+	padding-top: 16px;
+	padding-bottom: 14px;
+}
+.MenuNav{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1250px;
+	margin: auto;
+}
+
+.nivo-controlNav{
+	display: none;
+}
+.nivo-directionNav{
+	display: none;
+}
+
+
+.BannerReguaT{
+	background-color: #F8F8F8;
+
+}
+.bannerRegua{
+
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 1250px;
+	padding-top: 40px;
+	padding-bottom: 38px;
+	padding-top: 40px;
+	padding-bottom: 38px;
+	margin: auto;
+	gap: 100px;
+}
+
+.frete{
+	display: flex;
+}
+
+.parcelamento{
+	display: flex;
+}
+
+li { list-style: none;}
+
+a{ text-decoration: none;color: black; }
+
+
+#banner {width:100%;}
+
+.Titulo-Central{text-align: center; font-size: 25px; font-family: 'Lato,Regular'; text-transform: uppercase;}
+
+.BannerGrid{
+	margin-top: 75px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.column{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.ajustTam{width: 420px; height: 420px; background-color: #F8F8F8; margin-top: 20px;}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+
+.HoverScale{
+	transition: all 0.3s;
+    cursor: pointer;
+}
+
+.HoverScale:hover{
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.posiPing {margin-left: 20px}
+.posiPul{ margin-top: 20px; margin-left: 20px;}
+
+.promocoes{margin-top: 75px;}
+
+.titulo{
+	font-size: 14px;
+	text-align: center;
+	font-weight: Bold;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+.coment{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 38px;
+	margin-right: 38px;
+}
+
+.data{
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.gridComent{
+	display: flex;
+	margin-top: 39px;
+	gap: 20px;
+	justify-content: center;
+	font-family: 'Lato,Medium', sans-serif;
+}
+
+.bloco{
+	border:solid 2px #5f9ea000;
+	border-radius:20px;
+	background-color: #F8F8F8;
+}
+
+.subNews{
+	font-size: 14px;
+	text-align: center;
+	font-weight: 400;
+	color: #888686;
+}
+
+.newsletter form{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px
+	
+}
+
+.newsletter form button{
+	top: 3371px;
+	left: 1410px;
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #222222;
+	border-radius: 50px;
+
+}
+
+.txtnews{
+	background-color:#F8F8F8;
+	border:solid 2px #5f9ea000;
+	border-radius:50px 50px 50px 50px;
+	padding-left: 20px;
+	top: 3371px;
+	left: 860px;
+	width: 530px;
+	height: 50px;
+}
+
+.PaginasLoja{
+	margin-top: 75px;
+	margin-bottom: 15px;
+	display: flex;
+	background-color: #F8F8F8;
+    justify-content: center;
+	gap: 150px;
+	font: 15px;
+}
+
+
+
+.todo-footer{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	gap:100px
+}
+
+.footerFinal{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
